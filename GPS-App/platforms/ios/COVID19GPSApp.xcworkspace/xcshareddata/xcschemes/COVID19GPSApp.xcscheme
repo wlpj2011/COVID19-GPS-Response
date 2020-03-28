@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "GPSApp.app"
-               BlueprintName = "GPSApp"
-               ReferencedContainer = "container:GPSApp.xcodeproj">
+               BuildableName = "COVID19GPSApp.app"
+               BlueprintName = "COVID19GPSApp"
+               ReferencedContainer = "container:COVID19GPSApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "GPSApp.app"
-            BlueprintName = "GPSApp"
-            ReferencedContainer = "container:GPSApp.xcodeproj">
+            BuildableName = "COVID19GPSApp.app"
+            BlueprintName = "COVID19GPSApp"
+            ReferencedContainer = "container:COVID19GPSApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "GPSApp.app"
-            BlueprintName = "GPSApp"
-            ReferencedContainer = "container:GPSApp.xcodeproj">
+            BuildableName = "COVID19GPSApp.app"
+            BlueprintName = "COVID19GPSApp"
+            ReferencedContainer = "container:COVID19GPSApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "GPSApp.app"
-            BlueprintName = "GPSApp"
-            ReferencedContainer = "container:GPSApp.xcodeproj">
+            BuildableName = "COVID19GPSApp.app"
+            BlueprintName = "COVID19GPSApp"
+            ReferencedContainer = "container:COVID19GPSApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

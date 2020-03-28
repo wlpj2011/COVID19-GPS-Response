@@ -20,6 +20,11 @@ var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+        document.getElementById("setLocalStorage").addEventListener("click", setLocalStorage);
+        document.getElementById("showLocalStorage").addEventListener("click", showLocalStorage);
+        document.getElementById("removeProjectFromLocalStorage").addEventListener("click", removeProjectFromLocalStorage);
+        document.getElementById("getLocalStorageByKey").addEventListener("click", getLocalStorageByKey);
+        var localStorage = window.localStorage;
     },
 
     // deviceready Event Handler
@@ -40,7 +45,31 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+    },
+
+    setLocalStorage: function() {
+      localStorage.setItem("Name", "John");
+      localStorage.setItem("Job", "Developer");
+      localStorage.setItem("Project", "Cordova Project");
+    },
+
+    showLocalStorage: function() {
+       console.log(localStorage.getItem("Name"));
+       console.log(localStorage.getItem("Job"));
+       console.log(localStorage.getItem("Project"));
+    },
+
+    removeProjectFromLocalStorage: function() {
+      localStorage.removeItem("Project");
+    },
+
+    getLocalStorageByKey: function() {
+      console.log(localStorage.key(0));
     }
+
+
 };
+
+
 
 app.initialize();

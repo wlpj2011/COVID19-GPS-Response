@@ -2,7 +2,7 @@
 
 platform :ios, '10.0'
 
-target 'GPSApp' do
-	project 'GPSApp.xcodeproj'
+target 'COVID19GPSApp' do
+	project 'COVID19GPSApp.xcodeproj'
 
 end
