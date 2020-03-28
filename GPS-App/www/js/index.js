@@ -20,11 +20,6 @@ var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
-        document.getElementById("setLocalStorage").addEventListener("click", setLocalStorage);
-        document.getElementById("showLocalStorage").addEventListener("click", showLocalStorage);
-        document.getElementById("removeProjectFromLocalStorage").addEventListener("click", removeProjectFromLocalStorage);
-        document.getElementById("getLocalStorageByKey").addEventListener("click", getLocalStorageByKey);
-        var localStorage = window.localStorage;
     },
 
     // deviceready Event Handler
@@ -33,6 +28,11 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        document.getElementById("setLocalStorage").addEventListener("touchstart", setLocalStorage,false);
+        document.getElementById("showLocalStorage").addEventListener("touchstart", showLocalStorage,false);
+        document.getElementById("removeProjectFromLocalStorage").addEventListener("touchstart", removeProjectFromLocalStorage);
+        document.getElementById("getLocalStorageByKey").addEventListener("touchstart", getLocalStorageByKey);
+        var localStorage = window.localStorage;
     },
 
     // Update DOM on a Received Event
